@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'restocrud'`, () => {
+  it(`should have as title 'restorent-details'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('restocrud');
+    expect(app.title).toEqual('restorent-details');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('restocrud app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('restorent-details app is running!');
   });
 });

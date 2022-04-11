@@ -1,0 +1,60 @@
+{
+  "Restaurent": [
+    {
+      "Restaurent": "7tgb",
+      "Email": "tyu gh",
+      "Phone": " tyguh",
+      "Address": "w381",
+      "id": 1
+    },
+    {
+      "Restaurent": "tbf",
+      "Email": "ftbg",
+      "Phone": "tfgyn",
+      "Address": "tgyhumij,",
+      "id": 2
+    }
+  ],
+  "UserData": [
+    {
+      "Name": "Jatin ",
+      "Email": "jatin@gmail.com",
+      "Password": "Jatin@123456",
+      "Address": "Rajkot",
+      "Accept_Conditions": true,
+      "id": 1
+    },
+    {
+      "Name": "denish",
+      "Email": "denish@gmail.com",
+      "Password": "Denish@123",
+      "Address": "Junagadh",
+      "Accept_Conditions": true,
+      "id": 2
+    },
+    {
+      "Name": "Bhautik",
+      "Email": "bhautik@gmail.com",
+      "Password": "Bhautik@123",
+      "Address": "Devki Galol",
+      "Accept_Conditions": true,
+      "id": 3
+    },
+    {
+      "Name": "hey",
+      "Email": "hey@gmail.com",
+      "Password": "hey123",
+      "Address": "heyy",
+      "Accept_Conditions": "",
+      "id": 4
+    },
+    {
+      "Name": "anjali",
+      "Email": "anjali@gmail.com",
+      "Password": "anjali123",
+      "Address": "dhoraji",
+      "Accept_Conditions": true,
+      "id": 5
+    }
+  ]
+}

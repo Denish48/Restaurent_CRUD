@@ -1,0 +1,35 @@
+<!-- login page code  -->
+
+<mat-card class="example-card">
+  <h3><strong>Login</strong></h3>
+  <br />
+  <form [formGroup]="form_data">
+      <mat-form-field appearance="fill">
+        <mat-label>Enter your email</mat-label>
+        <input
+          matInput
+          placeholder="pat@example.com"
+          required
+          formControlName="email"
+        />
+        <mat-error *ngIf="email.invalid">{{ getErrorMessage() }}</mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Enter your password</mat-label>
+        <input
+          matInput
+          placeholder="Hey$123"
+          required
+          formControlName="password"
+        />
+        <mat-error *ngIf="password.invalid">{{
+          getPasswordErrorMessage()
+        }}</mat-error>
+      </mat-form-field>
+
+    <button (click)="GET_LOGIN_FORM_VALUE()" class="btn btn-primary">
+      Login
+    </button>
+  </form>
+</mat-card>

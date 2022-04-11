@@ -1,0 +1,22 @@
+input.example-right-align {
+  -moz-appearance: textfield;
+}
+form{
+  width: 100%;
+}
+.mat-form-field{
+  display: block;
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.example-card {
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

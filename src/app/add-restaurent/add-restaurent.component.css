@@ -1,0 +1,12 @@
+.avatar-sample.initials .igx-avatar {
+  background: #cec6ff;
+}
+
+.avatar-sample.icon .igx-avatar {
+  background: white;
+}
+.avatar-cls {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 12px;
+}
